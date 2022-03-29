@@ -1,272 +1,121 @@
-<!DOCTYPE html>
-
+<!doctype html>
 <html>
 
-<head>
-	<title>Simple web Development Template</title>
+	<head>
 
-	<style>
-		* {
-			margin: 0;
-			padding: 0;
-		}
-
-		.navbar {
-			display: flex;
-			align-items: center;
-			justify-content: center;
-			position: sticky;
-			top: 0;
-			cursor: pointer;
-		}
-
-		.background {
-			background: black;
-			background-blend-mode: darken;
-			background-size: cover;
-		}
-
-		.nav-list {
-			width: 70%;
-			display: flex;
-			align-items: center;
-		}
-
-		.logo {
-			display: flex;
-			justify-content: center;
-			align-items: center;
-		}
-
-		.logo img {
-			width: 180px;
-			border-radius: 50px;
-		}
-
-		.nav-list li {
-			list-style: none;
-			padding: 26px 30px;
-		}
-
-		.nav-list li a {
-			text-decoration: none;
-			color: white;
-		}
-
-		.nav-list li a:hover {
-			color: grey;
-		}
-
-		.rightnav {
-			width: 30%;
-			text-align: right;
-		}
-
-		#search {
-			padding: 5px;
-			font-size: 17px;
-			border: 2px solid grey;
-			border-radius: 9px;
-		}
-
-		.firstsection {
-			background-color: green;
-			height: 400px;
-		}
-
-		.secondsection {
-			background-color: blue;
-			height: 400px;
-		}
-
-		.box-main {
-			display: flex;
-			justify-content: center;
-			align-items: center;
-			color: black;
-			max-width: 80%;
-			margin: auto;
-			height: 80%;
-		}
-
-		.firsthalf {
-			width: 100%;
-			display: flex;
-			flex-direction: column;
-			justify-content: center;
-		}
-
-		.secondhalf {
-			width: 30%;
-		}
-
-		.secondhalf img {
-			width: 70%;
-			border: 4px solid white;
-			border-radius: 150px;
-			display: block;
-			margin: auto;
-		}
-
-		.text-big {
-			font-family: 'Piazzolla', serif;
-			font-weight: bold;
-			font-size: 35px;
-		}
-
-		.text-small {
-			font-size: 18px;
-		}
-
-		.btn {
-			padding: 8px 20px;
-			margin: 7px 0;
-			border: 2px solid white;
-			border-radius: 8px;
-			background: none;
-			color: white;
-			cursor: pointer;
-		}
-
-		.btn-sm {
-			padding: 6px 10px;
-			vertical-align: middle;
-		}
-
-		.section {
-			height: 400px;
-			display: flex;
-			align-items: center;
-			justify-content: center;
-			max-width: 90%;
-			margin: auto;
-		}
-
-		.section-Left {
-			flex-direction: row-reverse;
-		}
-
-		.paras {
-			padding: 0px 65px;
-		}
-
-		.thumbnail img {
-			width: 250px;
-			border: 2px solid black;
-			border-radius: 26px;
-			margin-top: 19px;
-		}
-
-		.center {
-			text-align: center;
-		}
-
-		.text-footer {
-			text-align: center;
-			padding: 30px 0;
-			font-family: 'Ubuntu', sans-serif;
-			display: flex;
-			justify-content: center;
-			color: white;
-		}
-	</style>
-</head>
-
-<body>
-	<nav class="navbar background">
-		<ul class="nav-list">
-			<div class="logo">
-				<img src= "logo.png">
-			</div>
-			<li><a href="#web">Web Technology</a></li>
-			<li><a href="#program">C Programming</a></li>
-			<li><a href="#course">Courses</a></li>
-		</ul>
-
-		<div class="rightNav">
-			<input type="text" name="search" id="search">
-			<button class="btn btn-sm">Search</button>
-		</div>
-	</nav>
-
-	<section class="firstsection">
-		<div class="box-main">
-			<div class="firstHalf">
-				<h1 class="text-big" id="web">Web Technology</h1>
-				<p class="text-small">
-					HTML stands for HyperText Markup Language.
-					It is used to design web pages using a markup
-					language. HTML is the combination of Hypertext
-					and Markup language. Hypertext defines the
-					link between the web pages. A markup language
-					is used to define the text document within tag
-					which defines the structure of web pages.
-					HTML is a markup language that is used by the
-					browser to manipulate text, images, and other
-					content to display it in the required format.
-				</p>
+		<title>How to be Ninja - 3 Detailed Steps with Background Information</title>
+<style>
+        * 
+{
+    margin: 0;
+    padding: 0;
+    font-family: "Times New Roman", Times, serif;
+}
 
 
-			</div>
-		</div>
-	</section>
+html 
+{ background-color:rgb(62, 62, 85); }
 
-	<section class="secondsection">
-		<div class="box-main">
-			<div class="firstHalf">
-				<h1 class="text-big" id="program">
-					C Programming
-				</h1>
-				<p class="text-small">
-					C is a procedural programming language. It
-					was initially developed by Dennis Ritchie
-					as a system programming language to write
-					operating system. The main features of C
-					language include low-level access to memory,
-					simple set of keywords, and clean style,
-					these features make C language suitable for
-					system programming like operating system or
-					compiler development.
-				</p>
+body 
+{
+    width: 90%;
+    background-color: rgb(62, 62, 85);;
+    margin: 15px auto;
+ 
+}
 
+main 
+{
+    margin: 5px auto;
+    width: 90%;
+    height: 750px auto;
+    border-right: 4px solid rgb(196, 128, 2);
+    padding: 30px;
+}
 
-			</div>
-		</div>
-	</section>
+footer 
+{
+    border-bottom: 5px solid rgb(196, 128, 2);
+    padding: 5px;
+    width: 95%;
+    float: up;
 
-	<section class="section">
-		<div class="paras">
-			<h1 class="sectionTag text-big">Java</h1>
+}
+ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;   
+    border: 3px;
+    border-radius: 10px;
+    position: absolute;
+    font-size: 15pt;
+    overflow: hidden;
+    float: left;
+    background-color: rgb(196, 128, 2);
+    padding: 8px;
+    display: block;
+}
+</style>
+         
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+        <meta charset="utf-8">
+		<link rel="stylesheet" href="styles.css">
+        <link rel=" stylesheet" href="normal.css">
+        <link href="fluid.css" rel="stylesheet">
+        
+        
+	</head>
+	<body>
+      
+		<main>
+           
+            <img src="pictureone.png" alt="Ninja"><img  src="pictureone.png" alt="Ninja"> <h1 class = "hcenter">How to be a Ninja!</h1><br><br><br>
+       <br><br><ul>  
+            <li><a target = "_blank" href="chapter345assign.html"style = color:white;>----Home</a></li>
+            <li><a target = "_blank" href="news.html"style = color:white;>----News</a></li>
+            <li><a target = "_blank" href="contact.html"style = color:white;>----Contact</a></li>
+            <li><a target = "_blank" href="about.html"style = color:white;>----About</a></li>
+          </ul><br><br><br>
+        
+          <br><br><br><h2 class = "backgr">Background Information</h2><br>
+        
+		    <p1 class = "center">In feudal Japan, a ninja, otherwise known as shinobi, 
+                was a covert agent who specialized in sabotage, espionage, infiltration, 
+                and, when the situation required it, assassination and combat. While the samurai 
+                upheld strict rules of conduct, both morally and in their duels, the ninja fought in the darkness,
+                 sneaking into locations without stirring up the attention of their enemies. To train to be a ninja
+                 , therefore, you must learn to fight with alacrity as well as strength, slipping in and out of your
+                  missions while remaining practically invisible to your foes</p1><br><br><br>
 
-			<p class="sectionSubTag text-small">
-				Java has been one of the most popular
-				programming language for many years.
-				Java is Object Oriented. However it is
-				not considered as pure object oriented
-				as it provides support for primitive
-				data types (like int, char, etc) The
-				Java codes are first compiled into byte
-				code (machine independent code). Then
-				the byte code is run on Java Virtual
-				Machine (JVM) regardless of the
-				underlying architecture.
-			</p>
+            <h3 class = "backgr"> Step 1</h3><br>
+             <p2 class = "center"><li>Join a martial arts class to become a master of hand-to-hand fighting. 
+                Ninjutsu is the traditional class of martial arts that ninjas studied, but it can be hard to 
+                find these types of classes at many martial arts schools. If it isn’t an option for you, look
+                 into taking Taekwondo, Karate, Jujitsu, or Judo classes</li></p2><br><br>
 
+            <h4 class = "backgr">Step 2</h4><br>
+             <p3 class = "center"><li>Become comfortable with your surroundings by practicing parkour. 
+                If you’re a ninja, chances are, you’ll be out and about whenever you need to use your skills. 
+                Parkour will enable you to get from place to place quickly by climbing and jumping. 
+                You’ll feel ready to face whatever comes your way if you know you can always scale a wall or 
+                jump over a stationary car if you need to</li></p3><br><br>
 
-		</div>
+            <h5 class = "backgr">Step 3</h5><br>
+            <p4 class = "center"><li>Perfect your balancing skills so that you can move quickly and nimbly. 
+                As a ninja, you need to be able to creep around corners, move quickly from place to place,
+                 and hide in small spaces. Having great balance will help you do all these things with ease.</ls></p4><br><br>
 
-		<div class="thumbnail">
-			<img src= "img.png" alt="laptop image">
-		</div>
-	</section>
-
-	<footer class="background">
-		<p class="text-footer">
-			Copyright ©-All rights are reserved
-		</p>
-
-
-	</footer>
-</body>
-
+            <p><center><br>For More Information Click <a target="_blank" href="https://www.wikihow-fun.com/Be-a-Ninja" style = color:white;>Here</a></center></p><br>
+            <address class = "right">
+                Email <a class = "right" target = "_blank" href="Mailto:tyler.tran@trojans.dsu.edu">Tyler</a>Here<br>
+                Visit us at: <a target = "_blank" class = "right" href="https://dsu.edu/">dsu.edu</a><br>
+                Box 564, Hawaii<br>
+                USA
+                </address>
+                <footer>
+                    <p <em>Contact us</em> at (559) 555-1212 for ticket information.</p>
+                </footer>
+		</main>
+	</body>
 </html>
