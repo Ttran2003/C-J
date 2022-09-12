@@ -1,2 +1,2 @@
-# C-J
-C&amp;JMetalMania
+# Tyler Tran
+# Welcome
